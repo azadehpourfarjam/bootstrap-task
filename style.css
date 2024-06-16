@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.nav-link{
+    font-size: 20px;
+    font-weight: 600
+}
+@media (max-width: 992px) {
+    ul.navbar-nav {
+        padding: 10px !important;
+        box-sizing: border-box;
+    }
+
+    div.navbar-collapse > form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 576px) {
+    div.navbar-collapse>form>input{
+        width:70%;
+        margin-right: 10px;
+    }
+}
+
+.banner{
+    box-shadow: 5px 5px 5px lightgrey , -5px -5px 5px lightgrey;
+    border-radius: 5px;
+    background: url("./images/service-8.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner .card{
+    padding: 20px;
+    box-shadow: 3px 3px 5px transparent , -2px -2px 2px transparent;
+    box-sizing: border-box;
+    width: 500px;
+    background-color: grey;
+}
+.banner .card .card-text{
+    line-height: 40px;
+    font-size: 18px;
+}
+@media (min-width:576px) and (max-width: 992px){
+    .card-header img{
+        display: block;
+        width: 200px;
+    }
+}
+
+@media (max-width: 576px){
+    .banner{
+        padding:30px 0;
+        box-sizing: border-box;
+    }
+    .banner .card{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-header img{
+        display: block;
+        width: 200px;
+    }
+    .card-body .card-text{
+        font-size: 14px;
+        line-height: 30px;
+    }
+}
+.txt-pin{
+    background-color: rgba(0,0,0,.5);
+}
+.txt-pin>h1{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+.txt-pin>p{
+    line-height: 20px;
+    font-size: 18px;
+    color: darkcyan;
+}
+@media (max-width: 576px) {
+    .txt-pin{
+        display: block;
+    }
+    .txt-pin>h1{
+        font-size: 20px;
+    }
+    .txt-pin>p{
+        font-size: 17px;
+        text-align:center;
+    }
+}
+
+.mainCards{
+    padding: 20px 10px;
+    box-sizing: border-box;
+}
+
+.mainCards{
+    direction: rtl;
+}
+.mainCards .card .card-title{
+    font-size: 18px;
+}
+.mainCards .card p{
+    direction: ltr;
+    font-size: 17px;
+}
+.footer{
+    background-image: linear-gradient(to left,rgba(0, 0, 139, 0.40) 40%, rgba(0, 0, 139, 0.79) 60%);
+}
+
+.footerBox{
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.footerBox .title{
+    color: black;
+    font-weight: 600;
+    font-size: 24px;
+}
+.footerBox .des{
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 30px;
+}
+@media (max-width: 576px) {
+    .footerBox .title{
+        font-size: 18px;
+    }
+    .footerBox .des{
+        text-align:left;
+    }
+}
+
